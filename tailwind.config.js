@@ -11,6 +11,9 @@ module.exports = {
 			colorfive: "#d1e8e2",
 			white: "#fff",
 		},
+		fontFamily: {
+			pop: ["Poppins"],
+		},
 	},
 	plugins: [],
 };
