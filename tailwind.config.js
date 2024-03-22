@@ -10,6 +10,8 @@ module.exports = {
 			colorfour: "#ffcb9a",
 			colorfive: "#d1e8e2",
 			white: "#fff",
+			red: "#b83535",
+			green: "#329932",
 		},
 		fontFamily: {
 			pop: ["Poppins"],
