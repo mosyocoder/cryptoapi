@@ -23,8 +23,8 @@ function Coin({ coin }) {
 				</div>
 				<div className="hidden sm:block">
 					<Sparklines data={coin.sparkline_in_7d.price}>
-						<SparklinesLine style={{ fill: "none" }} />
-						<SparklinesSpots />
+						<SparklinesLine color="#56b45d" />
+						<SparklinesSpots style={{ fill: "#56b45d" }} />
 					</Sparklines>
 				</div>
 			</div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const CoinTrending = ({ coin }) => {
 	return (
 		<Link to={`/coin/${coin.id}`}>
-			<div className="font-light mb-2 p-2 border-colorfive border-2 rounded hover:bg-colorfive">
+			<div className="font-light mb-2 p-2 border-colorfive border-b rounded hover:bg-colorfive">
 				<div className="flex justify-between">
 					<div className="flex items-center gap-1">
 						<span className="font-semibold">{coin.score + 1}</span>
