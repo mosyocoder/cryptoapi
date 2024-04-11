@@ -12,7 +12,7 @@ function Coin({ coin }) {
 					<p>{coin.name}</p>
 				</div>
 				<span className="w-full text-center">{currencyFormat(coin.current_price)}</span>
-				<span className={`flex gap-1 ${coin.price_change_percentage_24h < 0 ? "text-red" : "text-green"}`}>
+				<span className={`flex gap-1 ${coin.price_change_percentage_24h < 0 ? "text-red-500" : "text-green-500"}`}>
 					{coin.price_change_percentage_24h < 0 ? <TrendingDownIcon /> : <TrendingUpIcon />}
 					{coin.price_change_percentage_24h}
 				</span>

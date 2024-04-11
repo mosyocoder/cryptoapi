@@ -14,8 +14,6 @@ function Search() {
 			async function getCoins() {
 				const response = await axios(`https://api.coingecko.com/api/v3/search?query=${coin}`);
 
-				console.log(response.data.coins);
-
 				const opt = [];
 
 				response.data.coins.map((coin) => {

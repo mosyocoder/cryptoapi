@@ -8,4 +8,8 @@
     .wrapper-container {
         @apply max-w-7xl mx-auto px-2
     }
+
+    .social-links{
+        @apply hover:text-gray-400 transition transform
+    }
 }
